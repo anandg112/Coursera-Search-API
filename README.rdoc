@@ -1,28 +1,10 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Ruby app uses Coursera API to search for courses based on search query. The default is jhu. To change the search query, please add the following at the end of the URL <tt>?looking_for=search_term</tt> where search_term corresponds to the keyword you are looking for.
 
-Things you may want to cover:
+* System dependencies - Please install HTTParty gem.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* The app is deployed on Heroku at - https://coursera-search-anand.herokuapp.com/
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
